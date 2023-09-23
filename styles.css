@@ -1,0 +1,46 @@
+h1{
+    color: brown;
+    }
+    ul {
+        list-style-type: none;
+        margin-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 90%;
+        background-color: #f1f1f111;
+        height: 100%; /* Full height */
+    }
+    li a {
+        float: top;
+        color: blue;
+        margin-right: 50px;
+        padding: auto;
+    }
+    p.double {border-style: double;} 
+    li {
+        display: inline;
+    }
+    div {
+        border: auto solid orchid;
+        border-radius: 10px;
+        font: bold 1rem sans-serif;
+        margin: 1rem;
+        padding: 0,5rem;
+        width: 10%;
+        outline-offset: 0;
+    }
+    h1{
+        color: pink;
+        font-family: roboto;
+        font-size: 20px;
+    }
+    .title{
+    color: maroon;
+    font-size: x-large;
+    text-align: center;
+    background-color: pink;
+    }
+    /* mouse over link */
+    a:hover{
+        color: #ff0000;
+    }

@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Checkpoint HTML </title>
+        <title>Checkpoint HTML</title>
         <meta charset="utf-8" />
+        <link href="styles.css" rel="stylesheet" />
     </head>
     <body>
         <header>
-            <h1>Premier projet HTML</h1>
-            <nav> 
+            <h1 style="color: brown;">Descriptif</h1>
+            <p>
+                Vous trouverez toutes les informations dans les rubriques
+            </p>
+            <nav>
             <ul>
                 <li>
                     <a href="#">Acceuil</a>
@@ -25,22 +29,27 @@
                     <a href="#">Contact</a>  
                 </li>
             </ul>
-        </nav>
+            </nav>
         </header>
+        <style> 
+            body {
+            font-family: "roboto"; font-size: 20px;
+            }
+        </style>
             <h1></h1> 
     <!-- section -->
-    <section>
-        <h1>A Propos</h1>
-    </section>
-    <section>
-        <h2>Travail</h2>
-    </section>
-    <section>
-        <h3>CV</h3>
-    </section>
-    <section>
-        <h4>Contact</h4>
-    </section>
+    <div> 
+        <h1 class="title">Propos</h1>
+    </div>
+    <div>
+        <h2 class="title">Travail</h2>
+    </div>
+    <div>
+        <h3 class="title">CV</h3>
+    </div>
+    <div>
+        <h4 class="title">Contact</h4>
+    </div>
     <!-- video -->
     <h1>Travail</h1>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/PgAZ8KzfhO8?si=IUpgJba4CAKVlN09" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -48,6 +57,6 @@
     </audio>
     <!-- image -->
     <h1>CV</h1>
-    <img src="./img html.png"/>
+    <img src="./CV.png"/>
     </body>
 </html>
